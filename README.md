@@ -15,7 +15,7 @@ or
 npx cypress run
 ```
 
-There might be a bug (or could just be that they never bothered to add this) but refreshing the page after editing an entry, shows the edit hasn't saved. They seeem to have also removed some features with updates, specifically the option to sort out completed/not-completed tasks.
+There might be a bug (or could just be that they never bothered to add this) but refreshing the page after editing an entry, shows the edit hasn't saved. Works if you toggle completion though. They seeem to have also removed some features with updates, specifically the option to sort out completed/not-completed tasks.
 
 I have also chosen to disable test isolation. This is a personal preference as I think it makes everything easier and more readable (in the case of a report for example)
 
