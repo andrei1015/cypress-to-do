@@ -1,0 +1,8 @@
+{
+    "input": "header input",
+    "list": "[class*=todo-list]",
+    "task": "[class*=todo-list] li",
+    "taskEditable": "[class*=todo-list] li input[class*=edit]",
+    "checkbox": "[class*=todo-list] li input[type=checkbox]",
+    "deleteButton": "[class*=todo-list] li button[class*=destroy]"
+}

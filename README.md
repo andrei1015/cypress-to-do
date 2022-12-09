@@ -22,6 +22,10 @@ I have also chosen to disable test isolation. This is a personal preference as I
 CI/CD would just be copy-pasting this file: https://github.com/andrei1015/ui-api-js/blob/main/.github/workflows/cypress-tests.yml
 
 
+The code I wrote is not of the highest quality. For example I should also make sure I leave a clean state at the end of the test, because the application is using proper storage that persists even a browser closing, which can easily cause issues since the locators do not use n-ths or anything like that, everything assumes we are working with a single task.
+
+I have also created a separate file for the locators.
+
 COVERAGE
 
 Have done the basic tests, create, edit, complete, delete a task.
