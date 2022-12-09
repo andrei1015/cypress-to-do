@@ -1,6 +1,6 @@
 # cypress-to-do
  
-Initially I started with playwright but stumbled upon an error (most likely caused by my lack of hands-on experience with it), so instead of wasting time I just went with the one I already know, cypress.
+Initially I started with playwright but stumbled upon an error (most likely caused by my lack of hands-on experience with it), so instead of wasting time I just went with the one I already know, cypress. The playwright try is here https://github.com/andrei1015/playwright-to-do/blob/main/tests/positives.spec.ts and most likely either today or this weekend I will do the playwright part, for my own knowledge, but not with a 2 hour limit
 
 ```
 npm init
@@ -20,3 +20,8 @@ There might be a bug (or could just be that they never bothered to add this) but
 I have also chosen to disable test isolation. This is a personal preference as I think it makes everything easier and more readable (in the case of a report for example)
 
 CI/CD would just be copy-pasting this file: https://github.com/andrei1015/ui-api-js/blob/main/.github/workflows/cypress-tests.yml
+
+
+COVERAGE
+
+Have done the basic tests, create, edit, complete, delete a task.
